@@ -2,19 +2,17 @@
 <head>
     <meta charset="utf-8">
     <title>Earthly Wilds</title>
+    <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
 </head>
 <body>
+    <h1>Earthly Wilds</h1>
     <header>
-        <h1>Earthly Wilds</h1>
-        <nav>
-            <ul>
-                <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-                <li><a href="{{site.baseurl}}/about.html">About</a></li>
-            </ul>
-        </nav>
+        {% include nav.html %}
     </header>
 
 {{content}}
-
+<footer>
+    {% include nav.html %}
+</footer>
 </body>
 </html>
