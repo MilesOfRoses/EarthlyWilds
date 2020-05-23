@@ -1,2 +1,2 @@
 baseurl:/EarthlyWilds
-exclude: [README.md]
+exclude:[README.md]
