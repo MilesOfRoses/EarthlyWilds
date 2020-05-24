@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: article
 title: rainwater irrigation for urban gardens
 meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 category: permaculture

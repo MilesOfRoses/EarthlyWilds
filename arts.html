@@ -7,7 +7,7 @@ layout: default
 <ul>
     {% for post in site.categories.arts %}
         <li>
-            <a href="">{{post.title}}</a>
+            <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
             <p>{{post.meta}}</p>
         </li>
     {% endfor %}
