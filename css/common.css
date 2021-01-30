@@ -2,17 +2,19 @@ html {
     font-family: sans-serif;
 }
 
-header{
-    width: 100#
+body{
+    margin: 0;
+    background-image: url("../img/watercolor-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover; /*streaches image to cover whole screen*/
 }
+
 #logo {
-    /* display: block; 
-    margin-left: auto;
-    margin-right: auto; */
     width: 450px;
     position: absolute;
     left: 50%; /*part 1 of centering an absolutely positioned element: pushes it a bit to far left*/
     margin-left: -225px; /*part 2 of centering an absolutely positioned element: pushes it back to the right a bit*/
+    z-index: -1;
 }
 
 /***********START NAV************/
@@ -33,25 +35,28 @@ ul {
 
 #nav-right ul{
     float: right;
+    margin-right: 60px;
 }
 #nav-left ul{
     float: left;
+    margin-left: 60px;
 }
 
 nav li {
     display: inline-block;
-    padding: 32px;
-    font-size: 30px;
-    margin-top: 250px; /* pushes the text into the middle of the logo area*/
+    padding: 35px;
+    font-size: 25px;
+    margin-top: 220px; /* pushes the text into the middle of the logo area*/
     
 }
 nav a {
     color: #611b15;
 }
 
+nav {
+    z-index: 2;
+}
 /***********END NAV************/
-
-
 
 
 a {
@@ -60,16 +65,42 @@ a {
 ul li {
     list-style-type: none; /*remove bullets from lists*/
 }
+#top-container {
+    /* background: lightgrey; */
+    width: 1400px; 
+    height: 100%;
+    left: 50%;
+    margin-left: -700px;
+    position: absolute;
+    z-index: 0;
+    background-image: url("../img/pines.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+}
+
 #main-container {
-    background: lightgrey;
-    width: 75%; 
-	margin-left: auto;
-    margin-right: auto;
-    
+    width: 1400px; 
+    height: 100%;
+    left: 50%;
+    margin-left: -700px;
+    position: absolute;
+    z-index: 0;
+    margin-top: 400px
+
 }
 
 
 header {
     margin-bottom: 200px; /*compensating for the nav's negative top margin. needs to be the same value, but positive. */
+    /* background: red; */
+
+    
+
 }
 
+#content {
+    position: absolute;
+    margin-top: 200px;
+
+}
