@@ -4,13 +4,30 @@ titleAfter: Premaculture and regenerative earth sills development.
 meta: Topics range from Permaculture and Rewilding, to Art, Philosophy and Activism.
 ---
 
-<p>A blog about developing regenerative earth skills.</p>
+<!-- <p>A blog about developing regenerative earth skills.</p> -->
 
-<ul>
-    {% for post in site.posts limit: 12 %}
+
+<!-- The latest "featured" article -->
+<!-- <ul id="latest">
+    {% for post in site.posts limit: 1 %}
         <li>
+            <img src="{{post.image}}">
             <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
             <p>{{post.meta}}</p>
+        </li>
+    {% endfor %}
+</ul> -->
+
+
+<ul class="posts">
+    {% for post in site.posts limit: 12 %}
+        <li>
+            <a href="{{site.baseurl}}{{post.url}}"><img src="{{post.image}}"></a>
+            <div class="post-textbox">
+                <p>Caregory: {{post.category}}</p>
+                <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+            </div>
+            
         </li>
     {% endfor %}
 </ul>

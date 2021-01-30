@@ -6,7 +6,8 @@ body{
     margin: 0;
     background-image: url("../img/watercolor-bg.png");
     background-repeat: no-repeat;
-    background-size: cover; /*streaches image to cover whole screen*/
+    background-size: 100%; /*streaches image to cover whole screen*/
+    background-attachment: fixed;
 }
 
 #logo {
@@ -104,3 +105,51 @@ header {
     margin-top: 200px;
 
 }
+
+
+/************START POSTS***********/
+
+
+.posts img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/* #latest img {
+    width: 100%;
+    height: 200px;    
+} */
+
+.posts li {
+    /* background: gray; */
+    width: 30%;
+    height: 300px;
+    margin: 10px;
+    display: inline-block;;
+    color: #611b15;
+    text-align: center;
+
+}
+
+.posts a {
+    color: #611b15;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.posts p{
+    padding-top: 15px;
+}
+
+.post-textbox{
+    background-color: RGBA(255,255,255,0.8);
+    /* width: 400px; */
+    height: 100px;
+    margin-top: -116px; /*pulls the text box up to partially cover the image*/
+    position: relative; /*puts the textbox infront of the image, similar to using z index*/
+    border-radius: 0 0 10px 10px;
+    -webkit-box-shadow: 10px 10px 10px -10px rgba(0,0,0,0.64);
+}
+
+

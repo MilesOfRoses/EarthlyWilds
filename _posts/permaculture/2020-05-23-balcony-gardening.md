@@ -2,7 +2,8 @@
 layout: article
 title: Balcony gardening, making the most out of a small growing space
 meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-category: permaculture
+category: Permaculture
+image: https://lh3.googleusercontent.com/hrmganHU5ihCbmU2qGTSX8zlcolwWoskCkFzatLEkXgN2Cg2remwN6X2kgXhmiMMawFROzThIHtVuqFSbfl80cw72ZBtbNFTVkZL0weXKKEFWyMaqTcfLfPvp1XC65CwM8zZLBMrB4MCmhk6ewfY-qo9cxJqmIAvRUL8EZ9On7gdXFUWoxJn-LzPIHfCvep3HQpMc9wvkHt4dwGEpBax_PPWcV9uKXh46TOyzFmy0ZYLNrmS4v4PDNyNVaddHIzrC8JzspSf_5E66T3w99B-NZ6z4VIg21lxel9LohYdr8evarsC6omxaNyIfYEkTlsInxf6b57quGlFZzn_8g9GUbyNi53L5RnjpO_4dSIy0lQ8_84Ftpf7jQXNB0NODZZKOpJnhChiccq-XM9aTccMyFyhcddLU0vOU0nmHtQW39I63JzNKCiyotgZR39Ja6b2sv2Y_MjO3DMdUAQ4x8GqymnzusCermBeVukAkLeEUDwQOG2JKdAS-YTGV7aByv6dWe-nEDxnrwskJ9R4IbsODfPGOq4qZJXnxQkZD6p1-MA3jWPctrP6-_aNfyQI23dMv4zqwZliZNRE0fXDAkbxIC1n6cjJ-kSRm9QBKCiZPSbJ0o77BXZ1CQa1V5qhypqatgep8yQUFt_U7EdojQ3IGLV0jKTgG2ZZttlnuSLVQl2jfYPoDQJ2VaM=w702-h936-no?authuser=0
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
