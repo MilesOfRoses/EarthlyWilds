@@ -2,12 +2,17 @@ html {
     font-family: sans-serif;
 }
 
+header{
+    width: 100#
+}
 #logo {
-    display: block; 
+    /* display: block; 
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
     width: 450px;
-    /* margin-bottom: -250px; pulls the logo down to be in the middle of the nav elements */
+    position: absolute;
+    left: 50%; /*part 1 of centering an absolutely positioned element: pushes it a bit to far left*/
+    margin-left: -225px; /*part 2 of centering an absolutely positioned element: pushes it back to the right a bit*/
 }
 
 /***********START NAV************/
@@ -37,17 +42,17 @@ nav li {
     display: inline-block;
     padding: 32px;
     font-size: 30px;
-    margin-top: 250px;
+    margin-top: 250px; /* pushes the text into the middle of the logo area*/
+    
 }
 nav a {
     color: #611b15;
 }
 
-
-
-
-
 /***********END NAV************/
+
+
+
 
 a {
     text-decoration: none; /*remove underline*/
@@ -60,7 +65,9 @@ ul li {
     width: 75%; 
 	margin-left: auto;
     margin-right: auto;
+    
 }
+
 
 header {
     margin-bottom: 200px; /*compensating for the nav's negative top margin. needs to be the same value, but positive. */
