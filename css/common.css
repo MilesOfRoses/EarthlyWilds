@@ -1,8 +1,68 @@
 html {
     font-family: sans-serif;
 }
-.current {
-    background-color: grey;
-    color: white;
+
+#logo {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    /* margin-bottom: -250px; pulls the logo down to be in the middle of the nav elements */
+}
+
+/***********START NAV************/
+
+.current { /*highlight the current page of the nav*/
+    color: #396509;
+    font-weight: bold;
+}
+
+ul {
+    display: inline;
+    padding: 0;
+}
+
+#nav-left, #nav-right {
+    display: inline; /*by default these are display block, putting them on top of eachother*/
+} 
+
+#nav-right ul{
+    float: right;
+}
+#nav-left ul{
+    float: left;
+}
+
+nav li {
+    display: inline-block;
+    padding: 32px;
+    font-size: 30px;
+    margin-top: 250px;
+}
+nav a {
+    color: #611b15;
+}
+
+
+
+
+
+/***********END NAV************/
+
+a {
+    text-decoration: none; /*remove underline*/
+}
+ul li {
+    list-style-type: none; /*remove bullets from lists*/
+}
+#main-container {
+    background: lightgrey;
+    width: 75%; 
+	margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    margin-bottom: 200px; /*compensating for the nav's negative top margin. needs to be the same value, but positive. */
 }
 

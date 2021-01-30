@@ -1,11 +1,18 @@
+
 <nav>
-    <ul>
-        <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
-        <li><a href="{{site.baseurl}}/permaculture.html" class="{% if page.url contains 'permaculture' %}current{% endif %}">Permaculture</a></li>
-        <li><a href="{{site.baseurl}}/arts.html" class="{% if page.url contains 'arts' %}current{% endif %}">Arts</a></li>
-        <li><a href="{{site.baseurl}}/rewilding.html" class="{% if page.url contains 'rewilding' %}current{% endif %}">Rewilding</a></li>
-        <li><a href="{{site.baseurl}}/activism.html" class="{% if page.url contains 'activism' %}current{% endif %}">Activism</a></li>
-        <li><a href="{{site.baseurl}}/philosophy.html" class="{% if page.url contains 'philosophy' %}current{% endif %}">Philosophy</a></li>
-        <li><a href="">Search</a></li>
-    </ul>
+    <div id="nav-left">
+        <ul>
+            <li><a href="{{site.baseurl}}/permaculture.html" class="{% if page.url contains 'permaculture' %}current{% endif %}">Permaculture</a></li>
+            <li><a href="{{site.baseurl}}/arts.html" class="{% if page.url contains 'arts' %}current{% endif %}">Arts</a></li>
+            <li><a href="{{site.baseurl}}/rewilding.html" class="{% if page.url contains 'rewilding' %}current{% endif %}">Rewilding</a></li>
+        </ul>
+    </div>
+
+    <div id="nav-right">
+        <ul>
+            <li><a href="{{site.baseurl}}/off-grid.html" class="{% if page.url contains 'off-grid' %}current{% endif %}">Off Grid</a></li>
+            <li><a href="{{site.baseurl}}/philosophy.html" class="{% if page.url contains 'philosophy' %}current{% endif %}">Philosophy</a></li>
+            <li><a href="">Search</a></li>
+        </ul>
+    </div>
 </nav>

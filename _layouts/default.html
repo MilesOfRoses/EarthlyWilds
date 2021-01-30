@@ -1,18 +1,24 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Earthly Wilds</title>
+    <title>{% if page.title %}{{page.title}} - {% endif %} Earthly Wilds{% if page.titleAfter %} - {{page.titleAfter}}{% endif %}</title>
     <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+    <meta name="description" content="{{page.meta}}">
 </head>
 <body>
-    <h1>Earthly Wilds</h1>
-    <header>
-        {% include nav.html %}
-    </header>
+    <div id = "main-container"> 
+        <header>
+            {% include nav.html %}
+            <a href="{{site.baseurl}}/" id="home-link">
+                <img src="../img/logo.png" id="logo">
+            </a>
+            
+        </header>
 
-{{content}}
-<footer>
-    {% include nav.html %}
-</footer>
+        {{content}}
+        <footer>
+        <!-- {% include nav.html %} -->
+        </footer>
+    </div>
 </body>
 </html>
