@@ -3,7 +3,6 @@ layout: article
 title:  Container Garden Journal of 2020 (lessons learned for next season)
 meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 category: Permaculture
-image: https://lh3.googleusercontent.com/0c0l1FakIES9jKmtNXY29PdE2I49095Fnq0s9fmcCzmo0jihQiRUxr4C1ZQf1rDVdbB3_RieKZ4dXvkiHcFZitNGKkZbKsP9OfM_IS2AZ9TL4UEvK3u_1JyZSBW7G9STJQB5U2rT0RuAnjZM453UfJeATr27VXdkZaBm7sXDRKIftkBx5oxLEYACr9ULrrN6YmXOU8A4xWRhuyqh0k-n_t3Nd7uwVfuXQCsYYYpMZpS508lb-ZmNqwQt3cxk04NE7J2kgAa_wEK8zRBxILarNM3BiGHNSaTuEaW0w9VPqnjKXMpQrx2JWGbSMtm9peGQrdRMITUIZKFQmT-dx2SCSAyG-dWcEKFD0Iqs9buzh77itIQF-pUbSuxOSFzcd6Drtv8DTDnCSTA0jO37WYKWo_X4EmB-1mC4LF90RhbdHbOY5RHJfHGShsWCCtBb0lJUpzNBgfcVjquFbZDFEgXU2SwZWygfp3ws7swoJGjZPR19YbHHi8U9y7Szgr-i9LZb6zGzn7w-sjJIC65KX-pcup3Ba5RAV5bO4mui73upkbk7MyU3V42uncneHcrsYOEc92KQ1HRxsuemg6m688HNK9DYZN8d5Tpb9x_lYr3P_jxZ7okkfZX6uwwLWdWuJFJqOjaSADUNH1J45_FHZuWaIK5PUtCwB3lI1k-244v719uKJwM5KN38boY=w1248-h936-no?authuser=0
+image: img/containers.jpg
 ---
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

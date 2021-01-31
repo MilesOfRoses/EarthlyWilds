@@ -2,8 +2,8 @@
 layout: article
 title: Rainwater Irrigation for Urban Gardens (and a backup emergency water source)
 meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-category: permaculture
-image: https://lh3.googleusercontent.com/_mJuvQeT5nTJ3u-ggNCjCXAEAQDCZWkZylTkmL9D_56G9vb-sJfoTyLBR1VkssEYe9lWdn5lLGfR8D1JlgeZPuNTK1r-7GEsRpoOdP_MI-pgc9Vnjt4t_dDBov8Br_CFHAIHa7cemmCoy75gUl6YdTEglllpj7jq4u1sYEF9gkVdbPFkOnDyhpU0a0tRGZ1TKE-2jnElq65zAFx51Qe8DxKfzVr3uq5xUitwRQ9hWiBwW1RuyB1Gwot7qDouKkmSizZuGkxf-krWO8tTFxwH5n77oLxgou0dR96l8bAfjxEI1ixjCbZTa0JX-l4je6peqIEfKmhHgsRrQxoHkADg-yln5bP2yXLCMcwLqt9dsDNUg60-BMwN7UpNEoDv_EgEWHZ8gzYxk7hWgDy9VrQ6va-f5rU5E_HMdqDNJVHRgSvVjiJEdmZvEVFBp-H5voyQ7DkA8v-fAwPAw019p3R6XxEbX5ubyny2AHg248L1Vp1HI14A_-qjpPV_iOcl0O4UxPaahd_07I8fHGTZLTtXcx1fzZ0dur4ndxNRsR-Y2FnQ1HvkVD01ZEjEy3qGC6BvFB5vp4TN1GYCOxjLvOegXqrmylo2CpTafT31uR5MZjfC4L0iNhUQTGyYKpw--dtflW6w1rwc1TiIlDln2yitUXXPbyoIRIjCwU05KvKWxBNaKQT7iwp2aqg=w1248-h936-no?authuser=0
+category: Permaculture
+image: img/rainwater.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

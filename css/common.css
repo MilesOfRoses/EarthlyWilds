@@ -1,3 +1,9 @@
+@font-face {
+    font-family: SanstuyBrush;
+    src: url("../SanstuyBrush.otf") format("opentype");
+}
+
+
 html {
     font-family: sans-serif;
 }
@@ -59,6 +65,9 @@ nav {
 }
 /***********END NAV************/
 
+.brush {
+    font-family: SanstuyBrush;
+}
 
 a {
     text-decoration: none; /*remove underline*/
@@ -87,69 +96,77 @@ ul li {
     margin-left: -700px;
     position: absolute;
     z-index: 0;
-    margin-top: 400px
-
-}
-
-
-header {
-    margin-bottom: 200px; /*compensating for the nav's negative top margin. needs to be the same value, but positive. */
-    /* background: red; */
-
-    
+    margin-top: 400px;
+    /* background: lightgray; */
 
 }
 
 #content {
     position: absolute;
-    margin-top: 200px;
-
+    margin-top: 100px;
 }
 
 
-/************START POSTS***********/
+/************START REGULAR POSTS***********/
 
 
-.posts img {
-    width: 100%;
-    height: 300px;
-    border-radius: 10px;
+.posts p {
+    padding-top: 30px;
 }
-
-/* #latest img {
-    width: 100%;
-    height: 200px;    
-} */
 
 .posts li {
-    /* background: gray; */
-    width: 30%;
-    height: 300px;
-    margin: 10px;
-    display: inline-block;;
-    color: #611b15;
     text-align: center;
-
-}
+} 
 
 .posts a {
     color: #611b15;
     font-weight: bold;
-    text-decoration: underline;
-}
-
-.posts p{
-    padding-top: 15px;
 }
 
 .post-textbox{
-    background-color: RGBA(255,255,255,0.8);
-    /* width: 400px; */
-    height: 100px;
-    margin-top: -116px; /*pulls the text box up to partially cover the image*/
+    background-color: RGBA(255,255,255,0.7);
+    height: 150px;
+    padding: 0;
+    margin: -166px 0 0 0; /*pulls the text box up to partially cover the image*/
     position: relative; /*puts the textbox infront of the image, similar to using z index*/
-    border-radius: 0 0 10px 10px;
-    -webkit-box-shadow: 10px 10px 10px -10px rgba(0,0,0,0.64);
+    /* border-radius: 0 0 10px 10px; */
 }
 
+/*******BEGIN img layout copied from milesrose.net*******/
+.posts {
+    -webkit-column-count: 3;
+    -webkit-column-gap:   0px;
+    -moz-column-count:    3;
+    -moz-column-gap:      0px;
+    column-count:         3;
+    column-gap:           0px;  
+}
+.posts img {
+    width: 100% !important;
+    /* height: auto !important; */
+    object-fit: none;
+    height: 400px;
+}
+.posts{
+    display:inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
 
+  /*******END img layout copied from milesrose.net*******/
+
+  /************START latest post************/
+
+  #latest img {
+    width: 100%;
+    height: 350px;
+    object-fit: none;
+    opacity: 50%;   
+}
+
+.latest-textbox {
+    margin-top: -260px;
+    margin-bottom: 100px;
+}
+
+  /************END latest post************/

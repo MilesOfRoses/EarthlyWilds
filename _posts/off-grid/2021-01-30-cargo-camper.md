@@ -1,8 +1,8 @@
 ---
 layout: article
-title: How to Convert a Cargo Trailer into an Off Grid Camper 
+title: How to Convert a Cargo Trailer into <br> an Off Grid Camper 
 meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-category: off-grid
-image: https://lh3.googleusercontent.com/_TldacDa_iZtNb-4poWuQKu6UtGs0VZZd8lqxCLltOiYlFML2OaGuOaKZaGnUghBkLnlv3JV2PHdz08qwuBkkpTUtvEdE5khDW_Fe4MEti1Tt21Bq5Pn4X1ZXIkl0kCK2XtSju_motXiGuuo2X2D5o0Fn_0C8D-K9DfMy49hQR6J9oCVsPEbWsEkcWiQqkaeKenpXGZPM5MDnwpMUTJfk2nYnFQ6iFfXHBziENkNu8unc5dYTX_Xw0SpliEHvb8jq-kLexl58_1TyaeNvoHv-b4DhnsfGzG54MIhGlXUgiHOixJmQJgMNDO4BUtkV62vCUAmgq5GVfbdZMY98cZP3n5IQAf7-v4-bq14RUWXi7bHZR4nqKXB7yQP0cDIYbK-Czf8Xpu7k0oyqEIboUBFPikah14RgCs-ibQxjR_LsN9CAuaIN7T39h5VXvJeyHKjl7uC42sNI6DoS5VAsY-Q1zvWFz9vI3_-f21SVp8NvbZ0su_17h7sS6H7bsDta7FNvEaKlRLnmV9sOjnVHbtsUTeLAdMBLe0YB9QJCotS7FHTGnLJsI-BxJ-2Rw75gzei6ojbI7ymjB_A4reH8a_qDqqY-wwOChqsmMIvXYq3lec6pWpz5JvN95LNb77QRh828Hq0zjho83O4dUhuY5Vsi977_hLNkVZuljND4MUIe9y9uA6sk1H6-HM=w1248-h936-no?authuser=0
+category: Off-Grid
+image: img/cargo.jpg
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

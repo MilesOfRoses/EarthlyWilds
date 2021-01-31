@@ -8,26 +8,28 @@ meta: Topics range from Permaculture and Rewilding, to Art, Philosophy and Activ
 
 
 <!-- The latest "featured" article -->
-<!-- <ul id="latest">
+<ul id="latest">
     {% for post in site.posts limit: 1 %}
         <li>
             <img src="{{post.image}}">
-            <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-            <p>{{post.meta}}</p>
+            <div class="post-textbox latest-textbox">
+                <p>Latest Article:</p>
+                <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+            </div>
         </li>
     {% endfor %}
-</ul> -->
+</ul>
+
 
 
 <ul class="posts">
-    {% for post in site.posts limit: 12 %}
+    {% for post in site.posts limit: 9 %}
         <li>
             <a href="{{site.baseurl}}{{post.url}}"><img src="{{post.image}}"></a>
             <div class="post-textbox">
-                <p>Caregory: {{post.category}}</p>
+                <p>Caregory: <a href="{{post.category}}.html">{{post.category}}</a></a></p>
                 <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
             </div>
-            
         </li>
     {% endfor %}
 </ul>
