@@ -121,7 +121,12 @@ ul li {
 .posts a {
     color: #611b15;
     font-weight: bold;
+    
 }
+
+.posts .brush {
+    font-size: 18px;
+} 
 
 .post-textbox{
     background-color: RGBA(255,255,255,0.7);
@@ -132,7 +137,6 @@ ul li {
     /* border-radius: 0 0 10px 10px; */
 }
 
-/*******BEGIN img layout copied from milesrose.net*******/
 .posts {
     -webkit-column-count: 3;
     -webkit-column-gap:   0px;
@@ -146,14 +150,25 @@ ul li {
     /* height: auto !important; */
     object-fit: none;
     height: 400px;
+    opacity: 60%;
+    transition: 0.6s;
 }
+
+.posts img:hover {
+    opacity: 100%;
+}
+
 .posts{
     display:inline-block;
     margin-right: auto;
     margin-left: auto;
 }
 
-  /*******END img layout copied from milesrose.net*******/
+
+
+/*******END regular posts*******/
+
+
 
   /************START latest post************/
 
@@ -162,11 +177,37 @@ ul li {
     height: 350px;
     object-fit: none;
     opacity: 50%;   
+    transition: 0.6s;
 }
 
+/* #latest img:hover {
+    opacity: 100%
+}
+ */
+
+
+
 .latest-textbox {
-    margin-top: -260px;
+    margin-top: -280px;
     margin-bottom: 100px;
+    height: 200px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.latest-textbox a {
+    color: #611b15;
+}
+
+.latest-textbox p {
+    margin-bottom: -10px;
+    color: #611b15;
+}
+
+
+#latest .brush {
+    font-size: 50px;
 }
 
   /************END latest post************/
