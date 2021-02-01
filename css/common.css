@@ -99,7 +99,7 @@ ul li {
 #top-container {
     /* background: lightgrey; */
     width: 1400px; 
-    height: 100%;
+    /* height: 100%; */
     left: 50%;
     margin-left: -700px;
     position: absolute;
@@ -242,7 +242,39 @@ ul li {
     font-size: 40px;
     color: #611b15;
 }
+
   /****************** END category pages ********************/
+
+
+
+
+  /****************** START Search page ********************/
+#search-page {
+    width: 1400px;
+}
+
+#search-container {
+    width: 600px;
+    margin: 0;
+    /* text-align: center; */
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+#search-input{
+    width: 100%;
+    height: 40px;
+    font-size: 35px;
+}
+
+/* #results-container {
+    text-align: left;
+} */
+
+
+  /****************** END Search page ********************/
+
 
 
 
@@ -269,8 +301,6 @@ footer a {
 footer a:hover {
     opacity: 100%
 }
-
-
 
   /****************** END footer ********************/
 
