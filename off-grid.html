@@ -3,14 +3,17 @@ layout: default
 title: Off-Grid
 ---
 
-<h1>Off Grid Articles!</h1>
+<h1 id="category-title">Off Grid Articles!</h1>
 
-<ul>
+
+<ul class="posts">
     {% for post in site.categories.Off-Grid %}
         <li>
-            <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-            <p>{{post.meta}}</p>
+            <a href="{{site.baseurl}}{{post.url}}"><img src="{{post.image}}"></a>
+            <div class="post-textbox">
+                <p>Caregory: <a href="{{post.category}}.html">{{post.category}}</a></a></p>
+                <a class="brush"  href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+            </div>
         </li>
     {% endfor %}
 </ul>
-

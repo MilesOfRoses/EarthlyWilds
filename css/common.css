@@ -103,7 +103,7 @@ ul li {
 
 #content {
     position: absolute;
-    margin-top: 100px;
+    margin-top: 101px;
 }
 
 
@@ -178,6 +178,7 @@ ul li {
     object-fit: none;
     opacity: 50%;   
     transition: 0.6s;
+    margin-top: 20px;
 }
 
 /* #latest img:hover {
@@ -188,8 +189,8 @@ ul li {
 
 
 .latest-textbox {
-    margin-top: -280px;
-    margin-bottom: 100px;
+    margin-top: -280px; /*vertially centers the latest article's text box*/
+    margin-bottom: 73px; /* creates the sopace between the bottom of the text box and the top of the regular articles*/
     height: 200px;
     text-align: center;
     padding-top: 10px;
@@ -205,9 +206,19 @@ ul li {
     color: #611b15;
 }
 
-
 #latest .brush {
     font-size: 50px;
 }
 
   /************END latest post************/
+
+
+  /****************** START category pages ********************/
+
+#category-title{
+    font-family: SanstuyBrush;
+    text-align: center;
+    font-size: 40px;
+    color: #611b15;
+}
+  /****************** END category pages ********************/
