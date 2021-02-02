@@ -39,52 +39,7 @@ body{
     opacity: 100%;
 }
 
-/***********START NAV************/
 
-.current { /*highlight the current page of the nav*/
-    color: #396509;
-    font-weight: bold;
-}
-
-
-ul {
-    display: inline;
-    padding: 0;
-}
-
-#nav-left, #nav-right {
-    display: inline; /*by default these are display block, putting them on top of eachother*/
-} 
-
-#nav-right ul{
-    float: right;
-    margin-right: 60px;
-}
-#nav-left ul{
-    float: left;
-    margin-left: 60px;
-}
-
-nav li {
-    display: inline-block;
-    padding: 35px;
-    font-size: 25px;
-    margin-top: 220px; /* pushes the text into the middle of the logo area*/
-    
-}
-nav a {
-    color: #611b15;
-    /* transition: 0.6s */
-}
-
-nav a:hover{
-    color:396509;
-}
-
-nav {
-    z-index: 2;
-}
-/***********END NAV************/
 
 .brush {
     font-family: SanstuyBrush;
@@ -123,9 +78,65 @@ ul li {
 }
 
 #content {
-    position: absolute;
+    /* position: absolute; */
     margin-top: 101px;
 }
+
+
+/***********START NAV************/
+
+.current { /*highlight the current page of the nav*/
+    color: #396509;
+    font-weight: bold;
+}
+
+
+ul {
+    display: inline;
+    padding: 0;
+}
+
+#nav-left, #nav-right {
+    display: inline; /*by default these are display block, putting them on top of eachother*/
+} 
+
+#nav-right ul{
+    float: right;
+    margin-right: 60px;
+}
+#nav-left ul{
+    float: left;
+    margin-left: 60px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 35px;
+    font-size: 25px;
+    margin-top: 220px; /* pushes the text into the middle of the logo area*/  
+}
+
+
+/* CHANGE THE LINE BELOW IF NAV CONTENT CHANGES This line is because nav-left has more 
+characters than nav-right, making it unbalanced. this reduces the padding between each nav link, 
+making both side equal length in px and looking more balanced  */
+#nav-left li {
+    padding-left: 25px; 
+}
+
+nav a {
+    color: #611b15;
+    /* transition: 0.6s */
+}
+
+nav a:hover{
+    color:396509;
+}
+
+nav {
+    z-index: 2;
+}
+/***********END NAV************/
 
 
 /************START REGULAR POSTS***********/
@@ -317,7 +328,7 @@ footer{
 }
 footer a {
     color: #396509;
-    margin: 100px 40px 40px 0;
+    margin: 100px 20px 40px 20;
     opacity: 50%;
     /* transition: 0.6s; */
 }
@@ -332,23 +343,43 @@ footer a:hover {
 /****************** START responsive  ********************/
 
 
-  @media (max-width: 1401px) {
+@media (max-width: 1400px) {
 
 
     body {
-        min-width: 1000px;
         background-size: 1400px;
     }
 
 
-    nav {
-        visibility: hidden;
+    #nav-left li, #nav-right li {
+        /* visibility: hidden; */
+        font-size: 23px;
+        padding: 19px;
+        margin-top: 80px;
+    }
+
+    #nav-left li {
+        padding-left: 7px; 
+    }
+
+    #logo{
+        width: 20%;
+        margin-left: -10%;
     }
 
     #main-container, #top-container{
         width: 100%;
+        min-width: 300px;
         margin-left: -50%;
-        background-size: 1400px;
+        /* background-size: 1400px; */
+    }
+
+    #top-container{
+        height: 300px;
+    }
+
+    #main-container {
+        margin-top: 200px;
     }
 
 
@@ -356,9 +387,124 @@ footer a:hover {
         margin-top: 15px;
     }
 
+    .posts {
+        -webkit-column-count: 2;
+        -webkit-column-gap:   0px;
+        -moz-column-count:    2;
+        -moz-column-gap:      0px;
+        column-count:         2;
+        column-gap:           0px;  
+    }
+
+    footer a {
+        margin-top: 50px;
+    }
+
+    footer {
+        height: auto;
+    }
 }
 
 
+@media (max-width: 1200px) {
+
+    #top-container{
+        height: 250px;
+    }
+
+    #main-container {
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 950px) {
+
+    #nav-left li, #nav-right li {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    #nav-left li {
+        padding-left: 3px; 
+    }
+
+
+    #top-container{
+        height: 195px;
+        z-index: 2;
+
+    }
+
+    #main-container {
+        margin-top: 93px; /*line is covering header links*/
+        z-index: 1;
+    }
+
+    
+
+}
+
+
+@media (max-width: 800px) {
+
+    #top-container{
+        height: 170px;
+    }
+
+    #main-container {
+        margin-top: -310px;
+    }
+
+
+    #nav-left, #nav-right {
+        visibility: hidden;
+    }
+
+    #logo {
+        width: 156px;
+        margin-left: -78px /*centers the logo*/
+    }
+
+    #main-container, #top-container{
+        /* width: 200%; */
+
+        background-size: 783px;
+    }
+
+    #latest {
+        visibility: hidden;
+    }
+
+    #search-icon{
+        right: 15px;
+    }
+
+    .posts {
+        -webkit-column-count: 1;
+        -webkit-column-gap:   0px;
+        -moz-column-count:    1;
+        -moz-column-gap:      0px;
+        column-count:         1;
+        column-gap:           0px;  
+    }
+
+    body {
+        background-size: 900px;
+    }
+
+    footer{
+        /* background-image: url("../img/pines.png"); */
+        background-size: 783px;
+    }
+    footer a {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .posts img {
+        height: 300px;
+    }
+}
 
 
 /****************** END responsive  ********************/
