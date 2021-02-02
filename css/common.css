@@ -4,7 +4,7 @@
 }
 
 
-html {
+html, a {
     font-family: sans-serif;
 }
 
@@ -328,6 +328,37 @@ footer a:hover {
 
   /****************** END footer ********************/
 
-  
+
+/****************** START responsive  ********************/
 
 
+  @media (max-width: 1401px) {
+
+
+    body {
+        min-width: 1000px;
+        background-size: 1400px;
+    }
+
+
+    nav {
+        visibility: hidden;
+    }
+
+    #main-container, #top-container{
+        width: 100%;
+        margin-left: -50%;
+        background-size: 1400px;
+    }
+
+
+    .latest-textbox p {
+        margin-top: 15px;
+    }
+
+}
+
+
+
+
+/****************** END responsive  ********************/
