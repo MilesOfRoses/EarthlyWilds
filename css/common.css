@@ -29,7 +29,7 @@ body{
     margin-bottom: -50px; /*pulls the search ison on top of the header*/
     font-size: 40px;
     color: #611b15;
-    transition: 0.6s;
+    /* transition: 0.6s; */
     opacity: 50%;
     position: absolute;
     right: 95px;
@@ -74,7 +74,7 @@ nav li {
 }
 nav a {
     color: #611b15;
-    transition: 0.6s
+    /* transition: 0.6s */
 }
 
 nav a:hover{
