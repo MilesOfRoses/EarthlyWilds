@@ -17,6 +17,7 @@ body{
 }
 
 #logo {
+    margin-top: -20px;
     width: 450px;
     position: absolute;
     left: 50%; /*part 1 of centering an absolutely positioned element: pushes it a bit to far left*/
@@ -83,7 +84,19 @@ ul li {
 }
 
 
+
+
 /***********START NAV************/
+
+#menu-toggle input { /* hides the checkbox of the hamburger menu*/
+    visibility: hidden;
+}
+
+#hamburger-icon {
+    visibility: hidden; 
+}
+
+
 
 .current { /*highlight the current page of the nav*/
     color: #396509;
@@ -373,7 +386,7 @@ footer a:hover {
 
     #main-container, #top-container{
         width: 100%;
-        min-width: 300px;
+        min-width: 330px;
         margin-left: -50%;
         /* background-size: 1400px; */
     }
@@ -454,12 +467,54 @@ footer a:hover {
 
 @media (max-width: 800px) {
 
+    #nav-right{
+        margin-left: 60px;
+    }
+
+    #nav-right ul{
+        margin-right: 0px;
+    }
 
     nav  {
         visibility: hidden;
+        margin-top: 0px;
+        margin-left: -40px;
+        box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
+    }
+    nav ul {
+        margin: 0;
     }
 
-     #hamburger:checked ~ nav{visibility: visible;}
+    nav li {
+        display: block;
+        box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.5);
+    }
+
+
+    nav a {
+        padding: 30px;
+        font-size: 35px;
+    }
+     #hamburger:checked ~ nav{
+         visibility: visible;
+    }
+
+
+
+     #hamburger-icon {
+        visibility: visible; 
+        color: #611b15;
+        font-size: 40px;
+        margin-left: 15px;
+        /* opacity: 50%; */
+    }
+
+
+    #logo {
+        margin-top: -520px;
+    }
+
+
 
     #top-container{
         height: 170px;
@@ -470,10 +525,6 @@ footer a:hover {
     }
 
 
-    /* #nav-left, #nav-right {
-        
-    } */
-
     #nav-right ul{
         float: left;
     }
@@ -482,11 +533,15 @@ footer a:hover {
     #nav-right ul, #nav-left ul {
         float: none;
     }
-
-
-    nav li {
-        display: block;
+    #nav-right li, #nav-left li {
+        padding: 10px;
+        background: rgba(255,255,255,.9);
+        margin: 0;
+        /* text-align: center; */
     }
+
+
+
 
     #logo {
         width: 156px;
@@ -536,7 +591,7 @@ footer a:hover {
 
 
 
-@media (max-width: 360px) {
+@media (max-width: 370px) {
     .posts {
         -webkit-column-count: 1;
         -webkit-column-gap:   0px;
