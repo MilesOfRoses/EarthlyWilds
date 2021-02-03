@@ -90,15 +90,10 @@ ul li {
     font-weight: bold;
 }
 
-
 ul {
-    display: inline;
+    /* display: inline; */
     padding: 0;
 }
-
-#nav-left, #nav-right {
-    display: inline; /*by default these are display block, putting them on top of eachother*/
-} 
 
 #nav-right ul{
     float: right;
@@ -136,6 +131,15 @@ nav a:hover{
 nav {
     z-index: 2;
 }
+
+
+
+
+
+
+
+
+
 /***********END NAV************/
 
 
@@ -387,14 +391,7 @@ footer a:hover {
         margin-top: 15px;
     }
 
-    .posts {
-        -webkit-column-count: 2;
-        -webkit-column-gap:   0px;
-        -moz-column-count:    2;
-        -moz-column-gap:      0px;
-        column-count:         2;
-        column-gap:           0px;  
-    }
+
 
     footer a {
         margin-top: 50px;
@@ -418,6 +415,16 @@ footer a:hover {
 }
 
 @media (max-width: 950px) {
+
+    .posts {
+        -webkit-column-count: 2;
+        -webkit-column-gap:   0px;
+        -moz-column-count:    2;
+        -moz-column-gap:      0px;
+        column-count:         2;
+        column-gap:           0px;  
+    }
+
 
     #nav-left li, #nav-right li {
         font-size: 20px;
@@ -477,19 +484,19 @@ footer a:hover {
 
     #search-icon{
         right: 15px;
+        padding-top: 10px;
     }
 
     .posts {
-        -webkit-column-count: 1;
-        -webkit-column-gap:   0px;
-        -moz-column-count:    1;
-        -moz-column-gap:      0px;
-        column-count:         1;
-        column-gap:           0px;  
+        font-size: 12px;
+    }
+
+    .posts .brush{
+        font-size: 14px;
     }
 
     body {
-        background-size: 900px;
+        background-size: 1000px;
     }
 
     footer{
@@ -506,5 +513,17 @@ footer a:hover {
     }
 }
 
+
+@media (max-width: 360px) {
+    .posts {
+        -webkit-column-count: 1;
+        -webkit-column-gap:   0px;
+        -moz-column-count:    1;
+        -moz-column-gap:      0px;
+        column-count:         1;
+        column-gap:           0px;  
+        font-size: 15px;
+    }
+}
 
 /****************** END responsive  ********************/
