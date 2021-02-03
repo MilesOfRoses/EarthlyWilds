@@ -10,15 +10,16 @@
 <body>
     <div id = "top-container"> 
         <header>
+            <a href="{{site.baseurl}}/" id="home-link">
+                <img src="{{site.baseurl}}/img/logo.png" id="logo">
+            </a>
             <a href="{{site.baseurl}}/search.html" class="fa fa-search" id="search-icon"></a>
             <div id="menu-toggle">
                 <label for="hamburger" id="hamburger-icon">&#9776;</label>
                 <input type="checkbox" id="hamburger"/>
                 {% include nav.html %} <!-- the nav has to be inside of the hamburger toggle-->
             </div>
-            <a href="{{site.baseurl}}/" id="home-link">
-                <img src="{{site.baseurl}}/img/logo.png" id="logo">
-            </a>
+
             
         </header>
 

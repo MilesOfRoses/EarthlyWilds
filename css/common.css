@@ -17,7 +17,7 @@ body{
 }
 
 #logo {
-    margin-top: -20px;
+    margin-top: 0px;
     width: 450px;
     position: absolute;
     left: 50%; /*part 1 of centering an absolutely positioned element: pushes it a bit to far left*/
@@ -467,6 +467,13 @@ footer a:hover {
 
 @media (max-width: 800px) {
 
+
+
+
+    article{
+        margin-top: 500px;
+    }
+
     #nav-right{
         margin-left: 60px;
     }
@@ -475,8 +482,12 @@ footer a:hover {
         margin-right: 0px;
     }
 
+    /* #nav-left li {
+        padding-top: 90px;
+    }  */
+
     nav  {
-        visibility: hidden;
+        display: none;
         margin-top: 0px;
         margin-left: -40px;
         box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
@@ -495,9 +506,18 @@ footer a:hover {
         padding: 10px 50px 0 30px;;
         font-size: 35px;
     }
+
+    
      #hamburger:checked ~ nav{
-         visibility: visible;
+         display: block;
     }
+    
+    
+    #hamburger:checked ~ nav{
+        z-index: 2
+   }
+
+
 
 
 
@@ -510,9 +530,6 @@ footer a:hover {
     }
 
 
-    #logo {
-        margin-top: -480px;
-    }
 
 
 
