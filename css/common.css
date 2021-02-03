@@ -3,11 +3,9 @@
     src: url("../SanstuyBrush.otf") format("opentype");
 }
 
-
 html, a {
     font-family: sans-serif;
 }
-
 
 body{
     margin: 0;
@@ -32,7 +30,6 @@ body{
     margin-bottom: -50px; /*pulls the search ison on top of the header*/
     font-size: 40px;
     color: #611b15;
-    /* transition: 0.6s; */
     opacity: 50%;
     position: absolute;
     right: 95px;
@@ -42,8 +39,6 @@ body{
     opacity: 100%;
 }
 
-
-
 .brush {
     font-family: SanstuyBrush;
 }
@@ -51,13 +46,13 @@ body{
 a {
     text-decoration: none; /*remove underline*/
 }
+
 ul li {
     list-style-type: none; /*remove bullets from lists*/
 }
+
 #top-container {
-    /* background: lightgrey; */
     width: 1400px; 
-    /* height: 100%; */
     left: 50%;
     margin-left: -700px;
     position: absolute;
@@ -85,9 +80,6 @@ ul li {
     margin-top: 101px;
 }
 
-
-
-
 /***********START NAV************/
 
 #menu-toggle input { /* hides the checkbox of the hamburger menu*/
@@ -97,8 +89,6 @@ ul li {
 #hamburger-icon {
     visibility: hidden; 
 }
-
-
 
 .current { /*highlight the current page of the nav*/
     color: #396509;
@@ -114,6 +104,7 @@ ul {
     float: right;
     margin-right: 60px;
 }
+
 #nav-left ul{
     float: left;
     margin-left: 60px;
@@ -125,7 +116,6 @@ nav li {
     font-size: 25px;
     margin-top: 220px; /* pushes the text into the middle of the logo area*/  
 }
-
 
 /* CHANGE THE LINE BELOW IF NAV CONTENT CHANGES This line is because nav-left has more 
 characters than nav-right, making it unbalanced. this reduces the padding between each nav link, 
@@ -147,19 +137,10 @@ nav {
     z-index: 2;
 }
 
-
-
-
-
-
-
-
-
 /***********END NAV************/
 
 
 /************START REGULAR POSTS***********/
-
 
 .posts p {
     padding-top: 30px;
@@ -171,8 +152,6 @@ nav {
 
 .posts a {
     color: #611b15;
-    /* font-weight: bold; */
-    
 }
 
 .posts .brush {
@@ -185,7 +164,6 @@ nav {
     padding: 0;
     margin: -166px 0 0 0; /*pulls the text box up to partially cover the image*/
     position: relative; /*puts the textbox infront of the image, similar to using z index*/
-    /* border-radius: 0 0 10px 10px; */
 }
 
 .post-textbox .brush{
@@ -200,6 +178,7 @@ nav {
     column-count:         3;
     column-gap:           0px;  
 }
+
 .posts img {
     width: 100% !important;
     /* height: auto !important; */
@@ -219,13 +198,9 @@ nav {
     margin-left: auto;
 }
 
-
-
 /*******END regular posts*******/
 
-
-
-  /************START latest post************/
+/************START latest post************/
 
   #latest img {
     width: 100%;
@@ -236,20 +211,12 @@ nav {
     margin-top: 20px;
 }
 
-/* #latest img:hover {
-    opacity: 100%
-}
- */
-
-
-
 .latest-textbox {
     margin-top: -280px; /*vertially centers the latest article's text box*/
     margin-bottom: 73px; /* creates the sopace between the bottom of the text box and the top of the regular articles*/
     height: 200px;
     text-align: center;
-    padding-top: 10px;
-    
+    padding-top: 10px;    
 }
 
 .latest-textbox a {
@@ -269,7 +236,6 @@ nav {
 
   /************END latest post************/
 
-
   /****************** START category pages ********************/
 
 #category-title{
@@ -282,23 +248,21 @@ nav {
 
   /****************** END category pages ********************/
 
-
-
-
   /****************** START Search page ********************/
+
 #non-post-page {
     width: 1400px;
     background-color: rgba(255,255,255,.5);
     min-height: 100%;
 }
+
 #non-post-page p {
- padding: 20px;
+    padding: 20px;
 }
 
 #search-container {
     width: 600px;
     margin: 0;
-    /* text-align: center; */
     margin-right: auto;
     margin-left: auto;
 }
@@ -312,7 +276,6 @@ nav {
 
 #results-container a{
     color: #611b15;
-    /* font-weight: bold; */
     text-decoration: underline;
 }
 
@@ -320,21 +283,12 @@ nav {
     width: 100%;
     height: 40px;
     font-size: 35px;
-    /* border: 3px solid #611b15; */
 }
-
-/* #results-container {
-    text-align: left;
-} */
-
-
-  /****************** END Search page ********************/
-
-
-
-
+ 
+/****************** END Search page ********************/
 
   /****************** START footer ********************/
+
 footer{
     height: 230px;
     /* background-color: gray; */
@@ -346,6 +300,7 @@ footer{
     text-align: center;
     font-size: 40px;
 }
+
 footer a {
     color: #396509;
     margin: 100px 20px 40px 20;
@@ -359,28 +314,19 @@ footer a:hover {
 
   /****************** END footer ********************/
 
-
 /****************** START responsive  ********************/
 
-
 @media (max-width: 1400px) {
-
-    /* #main-content, #top-container, body{
-        width: 100%;
-    } */
 
     #non-post-page {
         width: 100%;
     }
 
-
     body {
         background-size: 1400px;
     }
 
-
     #nav-left li, #nav-right li {
-        /* visibility: hidden; */
         font-size: 23px;
         padding: 19px;
         margin-top: 80px;
@@ -399,7 +345,6 @@ footer a:hover {
         width: 100%;
         min-width: 320px;
         margin-left: -50%;
-        /* background-size: 1400px; */
     }
 
     #top-container{
@@ -410,12 +355,9 @@ footer a:hover {
         margin-top: 200px;
     }
 
-
     .latest-textbox p {
         margin-top: 15px;
     }
-
-
 
     footer a {
         margin-top: 50px;
@@ -426,9 +368,8 @@ footer a:hover {
     }
 }
 
-
 @media (max-width: 1200px) {
-
+    
     #top-container{
         height: 250px;
     }
@@ -449,7 +390,6 @@ footer a:hover {
         column-gap:           0px;  
     }
 
-
     #nav-left li, #nav-right li {
         font-size: 20px;
         padding: 10px;
@@ -459,32 +399,21 @@ footer a:hover {
         padding-left: 3px; 
     }
 
-
     #top-container{
         height: 195px;
         z-index: 2;
-
     }
 
     #main-container {
         margin-top: 93px; /*line is covering header links*/
         z-index: 1;
     }
-
-    
-
 }
-
 
 @media (max-width: 800px) {
 
     .post-textbox {
         margin-top: -162px;
-    }
-
-
-    article{
-        /* margin-top: 500px; */
     }
 
     #nav-right{
@@ -495,16 +424,13 @@ footer a:hover {
         margin-right: 0px;
     }
 
-    /* #nav-left li {
-        padding-top: 90px;
-    }  */
-
-    nav  {
+    nav {
         display: none;
         margin-top: 0px;
         margin-left: -40px;
         box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
     }
+
     nav ul {
         margin: 0;
     }
@@ -514,58 +440,43 @@ footer a:hover {
         box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.5);
     }
 
-
     nav a {
         padding: 10px 50px 0 30px;;
         font-size: 35px;
     }
-
     
      #hamburger:checked ~ nav{
          display: block;
-    }
-    
+    }    
     
     #hamburger:checked ~ nav{
         z-index: 2
-   }
+    }
 
      #hamburger-icon {
         visibility: visible; 
         color: #611b15;
         font-size: 40px;
         margin-left: 15px;
-        /* opacity: 50%; */
     }
-
-
-    #top-container{
-        /* height: 170px; */
-    }
-
 
     #category-title{
-      padding-top: 10px;  
-      margin-bottom: -5px;
+        padding-top: 10px;  
+        margin-bottom: -5px;
     }
 
     #nav-right ul{
         float: left;
     }
 
-
     #nav-right ul, #nav-left ul {
         float: none;
     }
+
     #nav-right li, #nav-left li {
-        /* padding: 10px; */
         background: rgba(255,255,255,.9);
         margin: 0;
-        /* text-align: center; */
     }
-
-
-
 
     #logo {
         width: 156px;
@@ -573,8 +484,6 @@ footer a:hover {
     }
 
     #main-container, #top-container{
-        /* width: 200%; */
-
         background-size: 783px;
     }
 
@@ -600,9 +509,9 @@ footer a:hover {
     }
 
     footer{
-        /* background-image: url("../img/pines.png"); */
         background-size: 783px;
     }
+
     footer a {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -622,8 +531,6 @@ footer a:hover {
         font-size: 15px;
     }
 }
-
-
 
 
 /****************** END responsive  ********************/
