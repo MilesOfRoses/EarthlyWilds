@@ -8,12 +8,14 @@ html, a {
     font-family: sans-serif;
 }
 
+
 body{
     margin: 0;
     background-image: url("../img/watercolor-bg.png");
     background-repeat: no-repeat;
     background-size: 100%; /*streaches image to cover whole screen*/
     background-attachment: fixed;
+    height: 0;
 }
 
 #logo {
@@ -72,7 +74,7 @@ ul li {
     left: 50%;
     margin-left: -700px;
     position: absolute;
-    z-index: 0;
+    z-index: -1;
     margin-top: 400px;
     /* background: lightgray; */
 
@@ -100,7 +102,7 @@ ul li {
 
 .current { /*highlight the current page of the nav*/
     color: #396509;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 ul {
@@ -169,7 +171,7 @@ nav {
 
 .posts a {
     color: #611b15;
-    font-weight: bold;
+    /* font-weight: bold; */
     
 }
 
@@ -275,6 +277,7 @@ nav {
     text-align: center;
     font-size: 40px;
     color: #611b15;
+    font-weight: normal;
 }
 
   /****************** END category pages ********************/
@@ -309,7 +312,7 @@ nav {
 
 #results-container a{
     color: #611b15;
-    font-weight: bold;
+    /* font-weight: bold; */
     text-decoration: underline;
 }
 
