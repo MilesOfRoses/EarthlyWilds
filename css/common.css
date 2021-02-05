@@ -148,6 +148,9 @@ nav {
 
 .posts li {
     text-align: center;
+    width: 33%;
+    display: inline-block;
+    /* margin: -2px; */
 } 
 
 .posts a {
@@ -170,14 +173,16 @@ nav {
     padding: 0 20px 0 20px;
 }
 
-.posts {
+/* .posts {
     -webkit-column-count: 3;
     -webkit-column-gap:   0px;
     -moz-column-count:    3;
     -moz-column-gap:      0px;
     column-count:         3;
     column-gap:           0px;  
-}
+} */
+
+
 
 .posts img {
     width: 100% !important;
@@ -193,9 +198,10 @@ nav {
 }
 
 .posts{
-    display:inline-block;
+    display:inline;
     margin-right: auto;
     margin-left: auto;
+    /* margin-left: 2.2px; */
 }
 
 /*******END regular posts*******/
@@ -381,14 +387,19 @@ footer a:hover {
 
 @media (max-width: 950px) {
 
-    .posts {
+    /* .posts {
         -webkit-column-count: 2;
         -webkit-column-gap:   0px;
         -moz-column-count:    2;
         -moz-column-gap:      0px;
         column-count:         2;
         column-gap:           0px;  
-    }
+    } */
+
+    .posts li {
+        width: 49.5%;
+
+    } 
 
 
     #nav-left li, #nav-right li {
@@ -416,6 +427,10 @@ footer a:hover {
 }
 
 @media (max-width: 800px) {
+
+    .posts li {
+        width: 100%;
+    } 
 
     .post-textbox {
         margin-top: -162px;
