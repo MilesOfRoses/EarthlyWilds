@@ -121,7 +121,7 @@ nav li {
 characters than nav-right, making it unbalanced. this reduces the padding between each nav link, 
 making both side equal length in px and looking more balanced  */
 #nav-left li {
-    padding-left: 25px; 
+    padding-left: 10px; 
 }
 
 nav a {
@@ -327,13 +327,13 @@ footer a:hover {
     }
 
     #nav-left li, #nav-right li {
-        font-size: 23px;
+        font-size: 21px;
         padding: 19px;
         margin-top: 80px;
     }
 
     #nav-left li {
-        padding-left: 7px; 
+        padding-left: 0px; 
     }
 
     #logo{
@@ -390,13 +390,18 @@ footer a:hover {
         column-gap:           0px;  
     }
 
+
     #nav-left li, #nav-right li {
-        font-size: 20px;
-        padding: 10px;
+        font-size: 16px;
     }
 
+    #nav-right li {
+        padding-left: 20px; 
+    }
+
+
     #nav-left li {
-        padding-left: 3px; 
+        padding-left: 0px; 
     }
 
     #top-container{
@@ -476,6 +481,7 @@ footer a:hover {
     #nav-right li, #nav-left li {
         background: rgba(255,255,255,.9);
         margin: 0;
+        padding-left: 0px
     }
 
     #logo {
