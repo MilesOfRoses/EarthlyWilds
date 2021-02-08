@@ -142,6 +142,13 @@ nav {
 
 /************START REGULAR POSTS***********/
 
+.posts {
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 100.3%;
+} 
+
 .posts p {
     padding-top: 30px;
 }
@@ -150,7 +157,7 @@ nav {
     text-align: center;
     width: 33%;
     display: inline-block;
-    /* margin: -2px; */
+    margin-bottom: 5px;
 } 
 
 .posts a {
@@ -167,41 +174,30 @@ nav {
     padding: 0;
     margin: -166px 0 0 0; /*pulls the text box up to partially cover the image*/
     position: relative; /*puts the textbox infront of the image, similar to using z index*/
+    /* border-radius: 0 0px 15px 15px; */
 }
 
 .post-textbox .brush{
     padding: 0 20px 0 20px;
 }
 
-/* .posts {
-    -webkit-column-count: 3;
-    -webkit-column-gap:   0px;
-    -moz-column-count:    3;
-    -moz-column-gap:      0px;
-    column-count:         3;
-    column-gap:           0px;  
-} */
-
-
-
 .posts img {
     width: 100% !important;
-    /* height: auto !important; */
     object-fit: none;
     height: 400px;
     opacity: 60%;
     transition: 0.6s;
+    /* border-radius: 15px; */
 }
 
 .posts img:hover {
     opacity: 100%;
 }
 
-.posts{
-    display:inline;
-    margin-right: auto;
-    margin-left: auto;
-    /* margin-left: 2.2px; */
+.posts .brush{
+    position: absolute;
+    width: 80%;    
+    margin-left: -45%; /*canters the absolutely positioned  post titles*/
 }
 
 /*******END regular posts*******/
@@ -215,6 +211,7 @@ nav {
     opacity: 50%;   
     /* transition: 0.6s; */
     margin-top: 20px;
+    margin-bottom: 16px;
 }
 
 .latest-textbox {
@@ -222,7 +219,8 @@ nav {
     margin-bottom: 73px; /* creates the sopace between the bottom of the text box and the top of the regular articles*/
     height: 200px;
     text-align: center;
-    padding-top: 10px;    
+    padding-top: 10px;
+    border-radius: 0;    
 }
 
 .latest-textbox a {
@@ -385,7 +383,7 @@ footer a:hover {
     }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
 
     /* .posts {
         -webkit-column-count: 2;

@@ -1,9 +1,9 @@
 ---
 layout: article
-title: How to vaccume seal bulk foods in mylar bags for long term storage
+title: Rainater as an emergency backup water source (and irrigation)  
 meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-category: Prepping
-image: https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi1323.photobucket.com%2Falbums%2Fu581%2Frobustgunther%2Funnamed_zps3f9b52ad.jpg&f=1&nofb=1
+category: Survival
+image: img/rainwater.jpg
 comments: true
 ---
 
